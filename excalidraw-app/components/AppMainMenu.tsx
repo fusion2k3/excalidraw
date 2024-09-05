@@ -25,6 +25,9 @@ export const AppMainMenu: React.FC<{
       />
 
       <MainMenu.DefaultItems.ChangeCanvasBackground />
+      <MainMenu.Item onSelect={() => window.alert("Item1")}>
+        Save To - New
+      </MainMenu.Item>
     </MainMenu>
   );
 });
